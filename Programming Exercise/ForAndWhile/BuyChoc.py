@@ -8,16 +8,20 @@
 noOfCake = 0
 noOfChoc = 0
 #get budget
-#FillinMissingCode
+budget=550
 
 while (money >= 150) : 
     if (money > 200) :
         #buy choc
         noOfChoc += 1
+        print("no of Choco",noOfChoc)
         money -= 200
     
     #FillinMissingCode for buying cake
-
+      if(money==150):
+        noOfCake+=1
+        print("no ofCake",noOfCake)
+        break;
 
 #print no of cakes and choc
 #FillinMissingCode
