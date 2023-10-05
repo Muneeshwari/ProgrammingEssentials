@@ -3,28 +3,32 @@
 #Ask another friend the same question. If the movie is in the first friend's list, 
 #Print "You both like "name of the movie"
 #Continue until they is atleast 3 movies they both like
-
-#init variables
+likemovie=[]
+commonmovie=[]
+for i in range(3):
 movies = input("What movies you like ? ):
-#convert movies into a List
+commonmovie.append(movies)
 #FillinMissingCode
 
-commonMoviewCount = 0
+commonmoviecount=0
 while (True) :
     #ask the second friend for one movie at a time
-    movie = input ( )#FillinMissingCode)
+    movies= input ("what movie you like?:")#FillinMissingCode)
     #Check if this movie is in the movie list
-    #FillinMissingCode
+ for movies in commonmovie:
+     if movies not in likemovie:
+         likemovie.append(movies)
+print(likemovie)    #FillinMissingCode
 
     #if present, 
     commonMoviewCount ++
     #check if we reached the max
     if(commmonMovieCount >= 3):
-        break;
+      break;
     else
         print ("Try again")
 
-print () #FillinMissingCode - list all the common movies
+print (commonmovie) #FillinMissingCode - list all the common movies
 
 
 ############## Problem 2 ################
