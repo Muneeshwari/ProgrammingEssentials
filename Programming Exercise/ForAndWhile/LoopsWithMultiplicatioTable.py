@@ -1,5 +1,8 @@
 '''
-1. Print the following using for loop
+1. Print the following using for loopi=1
+for num in range(5):
+ print(num+1,"*",i,'=',(num+1)*i) 
+
 1 * 1 = 1
 1 * 2 = 2
 1 * 3 = 3
@@ -7,6 +10,15 @@
 1 * 5 = 5
 
 2. Print the following using two for loops
+i=1
+for num in range(5):
+ print(num+1,"*",i,'=',(num+1)*i) 
+i=2
+for num in range(5):
+ print(num+1,"*",i,'=',(num+1)*i) 
+i=3
+for num in range(5):
+ print(num+1,"*",i,'=',(num+1)*i) 
 
 1 * 1 = 1
 1 * 2 = 2
@@ -26,6 +38,18 @@
 
 3. Print the following. Learn how to use print with formatting
 Learn how to print ********* using formatted print
+i=1
+for num in range(5):
+ print(num+1,"*",i,'=',(num+1)*i) 
+print("******************")
+i=2
+for num in range(5):
+ print(num+1,"*",i,'=',(num+1)*i) 
+print("******************")
+i=3
+for num in range(5):
+ print(num+1,"*",i,'=',(num+1)*i) 
+print("******************")
 My Tables
 Table  1
 1 * 1 = 1
