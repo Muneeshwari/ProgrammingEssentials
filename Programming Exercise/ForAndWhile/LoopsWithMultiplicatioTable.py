@@ -1,12 +1,19 @@
 '''
 1. Print the following using for loop
-1 * 1 = 1
-1 * 2 = 2
-1 * 3 = 3
-1 * 4 = 4
-1 * 5 = 5
+i=int(input('Enter the number:'))
+for num in range(5):
+ print(num+1,"*",i,'=',(num+1)*i) 
 
 2. Print the following using two for loops
+i=1
+for num in range(5):
+ print(i,"*",num+1,'=',(num+1)*i) 
+  i=2
+for num in range(5):
+ print(i,"*",num+1,'=',(num+1)*i) 
+i=3
+for num in range(5):
+ print(i,"*",num+1,'=',(num+1)*i) 
 
 1 * 1 = 1
 1 * 2 = 2
