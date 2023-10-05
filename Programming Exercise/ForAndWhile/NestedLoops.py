@@ -6,11 +6,12 @@
 # Mark 1 for Student 2 is 56 
 #etc
 
-for student in range (#FillinMissingCode):
+for student in range (2):
     #FillinMissingCode  to get studnet name
-    for mark in range (#FillinMissingCode):
-        inputMark = float (input(f"#FillinMissingCode")) #use formatted string
-        print (#FillinMissingCode)
+        mark1=input("mark1 for student:")
+        mark2=input("mark2 for student:")
+        inputMark = float (input(f'mark1:{ mark1}-mark2:{mark2}')) #use formatted string
+        print (inputMarke)
     
 ######### Problem 1.1
 #same problem as above, but output should have the student name and all the marks in the same line.
